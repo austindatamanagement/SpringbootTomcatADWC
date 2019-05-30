@@ -1,0 +1,47 @@
+{
+    "workshop": {
+        "title": "Workshop Title",
+        "description": "Description of this workshop.",
+        "theme": "default",
+        "interactive":"https://launch.oracle.com/?",
+        "labs": [
+            {
+                "number": "0",
+                "filename": "Intro.md",
+                "title": "Workshop Introduction",
+                "description": "Step-by-step workshop instructions"
+
+            },
+            {
+                "number": "100",
+                "filename": "LabGuide100.md",
+                "title": "Lab 100: Login to your Oracle Cloud Account.",
+                "description": ""
+
+            },
+            {
+                "number": "200",
+                "filename": "LabGuide200.md",
+                "title": "Lab 200: Create Autonomous Data Warehouse cloud service, create a user in Oracle Machine Learning (OML), upload the dataset in Object Storage and import the notebook in OML.",
+                "description": ""
+
+            },
+            {
+                "number": "300",
+                "filename": "LabGuide300.md",
+                "title": "Lab 300:  Create a User Credential in Autonomous Database through Notebook",
+                "description": ""
+
+            },
+            {
+                "number": "400",
+                "filename": "LabGuide400.md",
+                "title": "Lab 400: Create external and internal table, load data and create partition in table",
+                "description": ""
+
+            }
+
+
+        ]
+    }
+}
