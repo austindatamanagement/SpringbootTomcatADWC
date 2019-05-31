@@ -46,15 +46,7 @@
                 "title": "Lab 500: Run the application",
                 "description": ""
 
-            },
-            {
-                "number": "600",
-                "filename": "LabGuide600.md",
-                "title": "Lab 400: Create external and internal table, load data and create partition in table",
-                "description": ""
-
             }
-
 
         ]
     }
