@@ -4,8 +4,8 @@
 
 - Login to your Oracle Cloud Account.
 - Create Autonomous Data Warehouse cloud service. 
-- Download the application. 
-- Change parameters as per your environment. 
+- Download the Spring Boot web application and Tomcat server.
+- Setup Spring Boot Application
 - Run the application. 
 
 ## Required Artifacts

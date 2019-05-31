@@ -2,60 +2,23 @@ Updated: December 10, 2018
 
 ## Introduction
 
-This lab guide will walk you through the process of creating a User Credential in Autonomous Database through Notebook.
+This lab guide will walk you through the process downloading Tomcat server and Spring Boot Web Application.
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
 ## Objectives
 
-- Create credential.
+- Download Spring Boot application.
+- Download Tomcat Server.
 
 ## Required Artifacts
 
 - An oracle cloud account with Autonomous Data Warehouse Cloud Service.
-- Dataset uploaded in Object Storage
-- Notebook imported in Oracle Machine Learning.
 
-### **STEP 1**: Create a **Credential**.
+### **STEP 1**: Download Spring Boot Application.  
+    
+- Download the following zip [SpringbootTomcatADWC](https://oradocs-corp.documents.us2.oraclecloud.com/documents/link/LDD42CB781827670909DBAA0F6C3FF17C1177A968060/fileview/DF9D15293C9B234B8ECA23CCF6C3FF17C1177A968060/_SpringBootWarDeploymentFinal.zip)
 
-- **Get Auth token.**
+### **STEP 2**: Download Tomcat server.
 
-    - Go to Oracle Compute instance. Click on **Menu**, **Identity**, **Users**.
-    
-      ![](images/SpringbootWebApp/compute34.png)
-        
-    - Click on your username.
-    
-      ![](images/SpringbootWebApp/compute35.png)
-    
-    - Click on **Auth Tokens**. 
-    
-      ![](images/SpringbootWebApp/compute36.png)  
-     
-    - Click on **Generate Token**  
-     
-      ![](images/SpringbootWebApp/compute37.png)
-        
-    - Give a **Description** and click on **Generate Token**
-    
-      ![](images/SpringbootWebApp/compute38.png)
-    
-      **Note:  Make sure to save the token in a text file for future reference.** 
- 
-- **Create Credential** 
-      
-    - Go back to your Notebook which you just imported in OML.
-    
-    - Change the following parameters in your first script:
-      
-      - **username**: `your username`
-    
-      - **password**: `Generated token`
-      
-      **Script should look like**: 
-      
-       ![](images/SpringbootWebApp/script.png)
-            
-    - **Run the script** by clicking on the run button on the top right of the script.
-
-      ![](images/SpringbootWebApp/run.png)
+- Download Tomcat apache from the following link : https://tomcat.apache.org/download-80.cgi
