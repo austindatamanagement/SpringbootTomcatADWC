@@ -2,51 +2,58 @@ Updated: December 10, 2018
 
 ## Introduction
 
-This lab guide will walk you through the process of setting Spring Boot Application as per your Autonomous Environment. 
+This lab guide will walk you through the process of running the application in Tomcat server.
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
 ## Objectives
 
-- Set up instant client with Autonomous Database Wallet.
-- Set up environment parameters in Spring Boot Application. 
+- Create a war file.
+- Deploy it in Tomcat Server.
+- Run the application.
 
 ## Required Artifacts
 
 - An oracle cloud account with Autonomous Data Warehouse Cloud Service.
 
-### **STEP 1**: Set up instant client with Autonomous Database Wallet.  
+### **STEP 1**: Create a war file.  
     
-- Download and follow the guideline in the document to configure instant client in your system [InstantClient](images/SpringbootWebApp/InstantClient.docx)
-
-### **STEP 2**: Set up environment parameters in Spring Boot Application. 
-
-- Unzip the downloaded Spring Boot application and navigate to the WebController.java file:
-
-    ![](images/SpringbootWebApp/webcontroller.png)
-
-- Change the following paramerters in WebController.java:
-
-    . Service name: Your Service name.
-    . TNS_ADMIN: Path of the TNS_ADMIN that you have set. 
-    . User: username
-    . Password: Password
-    
-    ![](images/SpringbootWebApp/parameters.png)
-
-- Download ojdbc8-full.tar.gz fromt he following site: https://www.oracle.com/technetwork/database/features/jdbc/jdbc-ucp-122-3110062.html
-  Unzip it and note down the location of ojdbc8.jar file alonf with the file name.
-  
 - Navigate to the SpringBootWarDeployment directory where the pom.xml file is located.
 
     ![](images/SpringbootWebApp/apploc.png)
 
-- Make sure that you have the Maven installed. If not, follow the following link:
-  https://maven.apache.org/install.html
-  
-- Change the location of ojdbc8.jar in the following command and run it:
+- Run the following command:
 
-  **mvn install:install-file -Dfile=location of ojdbc8.jar -DgroupId=com.github.noraui -DartifactId=ojdbc8 -Dversion=12.2.0.1 -Dpackaging=jar -DgeneratePom=true**
-  
+    **mvn clean install**
 
-Youa re all set to go to the next lab.
+### **STEP 2**: Deploy it in Tomcat Server. 
+ 
+- After the above command is completely executed, navigate to SpringBootWarDeployment/target and you will see a war file.
+    
+    ![](images/SpringbootWebApp/target.png)
+
+- Copy that war file and paste it in your tomcat directory/Webapps.
+
+    ![](images/SpringbootWebApp/webapp.png)
+
+- Rename the war file to test1.war.
+
+
+### **STEP 3**: Run the application.
+
+- Navigate to the bin folder of the Tomcat Server and run the following command :
+
+    **./catalina.sh run**
+
+    ![](images/SpringbootWebApp/bin.png)
+    
+
+- After the server is up and running, it should look like :
+
+    ![](images/SpringbootWebApp/serverup.png)
+    
+- Open up your web browser and type:
+
+    **localhost:8080/test1**
+
+    ![](images/SpringbootWebApp/connected.png)
