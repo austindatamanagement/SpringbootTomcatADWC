@@ -24,7 +24,6 @@ NOTE: You need to accept the agreement first before downloading the package.
 
 - Unzip the Autonomous wallet downloaded, and navigate to sqlnet.ora. 
   Edit sqlnet.ora as follows:
-    cd /home/opc/ATPnodeapp/wallet_MeghaDB/
 
     nano sqlnet.ora
 
