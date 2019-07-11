@@ -22,8 +22,21 @@ This lab guide will walk you through the process of setting Spring Boot Applicat
 - Download Instant Client - "Basic Package - All files required to run OCI, OCCI, and JDBC-OCI applications" from the following link: https://www.oracle.com/technetwork/topics/intel-macsoft-096467.html. 
 NOTE: You need to accept the agreement first before downloading the package. 
 
+- Unzip the Autonomous wallet downloaded, and navigate to sqlnet.ora. 
+  Edit sqlnet.ora as follows:
+    cd /home/opc/ATPnodeapp/wallet_MeghaDB/
 
-- Please follow the following link under the headline "Prepare for Oracle Call Interface (OCI), ODBC, and JDBC OCI Connections" -> New Oracle Client Installation : https://docs.oracle.com/en/cloud/paas/atp-cloud/atpug/connect-preparing.html#GUID-EFAFA00E-54CC-47C7-8C71-E7868279EF3B
+    nano sqlnet.ora
+
+    WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA = (DIRECTORY=**$TNS_ADMIN**)))
+    SSL_SERVER_DN_MATCH=yes
+    
+- Set LD_LIBRARY_PATH. Type the following command in your command prompt:
+    export LD_LIBRARY_PATH=<<Path of your instant client folder>>:$LD_LIBRARY_PATH
+    
+- Set env variables TNS_AMDIN to point to the wallet folder.
+    export TNS_ADMIN=<<Path of your unzipped wallet file>>
+
 
 
 ### **STEP 2**: Set up environment parameters in Spring Boot Application. 
