@@ -17,9 +17,14 @@ This lab guide will walk you through the process of setting Spring Boot Applicat
 
 ### **STEP 1**: Set up instant client with Autonomous Database Wallet.  
 
-- Download Client Credentials (Wallets): Please follow this link to download the wallet. https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/user/connect-download-wallet.html#GUID-B06202D2-0597-41AA-9481-3B174F75D4B1
+- Download Client Credentials (Wallets): Please follow this link to download the wallet: https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/user/connect-download-wallet.html#GUID-B06202D2-0597-41AA-9481-3B174F75D4B1
 
-- Please follow the following link under the headline "About Connecting to Autonomous Data Warehouse Using a Client Application" to set up instant client in your system - https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/user/connect-preparing.html#GUID-272F9E3F-8B28-46B1-AB5E-2F5572B74893
+- Download Instant Client - "Basic Package - All files required to run OCI, OCCI, and JDBC-OCI applications" from the following link: https://www.oracle.com/technetwork/topics/intel-macsoft-096467.html. 
+NOTE: You need to accept the agreement first before downloading the package. 
+
+
+- Please follow the following link under the headline "Prepare for Oracle Call Interface (OCI), ODBC, and JDBC OCI Connections" -> New Oracle Client Installation : https://docs.oracle.com/en/cloud/paas/atp-cloud/atpug/connect-preparing.html#GUID-EFAFA00E-54CC-47C7-8C71-E7868279EF3B
+
 
 ### **STEP 2**: Set up environment parameters in Spring Boot Application. 
 
