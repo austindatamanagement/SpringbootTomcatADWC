@@ -34,10 +34,13 @@ NOTE: You need to accept the agreement first before downloading the package.
     
     **export LD_LIBRARY_PATH=Path of your instant client folder:$LD_LIBRARY_PATH**
     
-- Set env variables TNS_AMDIN to point to the wallet folder.
+    Note: Repeat this everytime you restart the laptop. Or add the above command in your ~/.bash_profile.
+    
+- Set env variables TNS_AMDIN to point to the wallet folder. Type the following command in your command prompt:
     
     **export TNS_ADMIN=Path of your unzipped wallet file**
 
+    Note: Repeat this everytime you restart the laptop. Or add the above command in your ~/.bash_profile.
 
 
 ### **STEP 2**: Set up environment parameters in Spring Boot Application. 
