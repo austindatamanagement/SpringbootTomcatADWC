@@ -31,10 +31,12 @@ NOTE: You need to accept the agreement first before downloading the package.
     SSL_SERVER_DN_MATCH=yes
     
 - Set LD_LIBRARY_PATH. Type the following command in your command prompt:
-    export LD_LIBRARY_PATH=Path of your instant client folder:$LD_LIBRARY_PATH
+    
+    **export LD_LIBRARY_PATH=Path of your instant client folder:$LD_LIBRARY_PATH**
     
 - Set env variables TNS_AMDIN to point to the wallet folder.
-    export TNS_ADMIN=Path of your unzipped wallet file
+    
+    **export TNS_ADMIN=Path of your unzipped wallet file**
 
 
 
