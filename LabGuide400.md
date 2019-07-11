@@ -16,8 +16,10 @@ This lab guide will walk you through the process of setting Spring Boot Applicat
 - An oracle cloud account with Autonomous Data Warehouse Cloud Service.
 
 ### **STEP 1**: Set up instant client with Autonomous Database Wallet.  
-    
-- Download and follow the guideline in the document to configure instant client in your system [InstantClient](images/SpringbootWebApp/InstantClient.docx)
+
+- Download Client Credentials (Wallets): Please follow this link to download the wallet. https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/user/connect-download-wallet.html#GUID-B06202D2-0597-41AA-9481-3B174F75D4B1
+
+- Please follow the following link under the headline "About Connecting to Autonomous Data Warehouse Using a Client Application" to set up instant client in your system - https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/user/connect-preparing.html#GUID-272F9E3F-8B28-46B1-AB5E-2F5572B74893
 
 ### **STEP 2**: Set up environment parameters in Spring Boot Application. 
 
