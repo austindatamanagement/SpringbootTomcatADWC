@@ -38,7 +38,7 @@ NOTE: You need to accept the agreement first before downloading the package.  Un
     
 - Set env variables TNS_AMDIN to point to the wallet folder. Type the following command in your command prompt:
     
-    **export TNS_ADMIN=Path of your unzipped wallet file**
+    **export TNS_ADMIN=Path of your unzipped wallet folder**
 
     Note: Repeat this everytime you restart the laptop. Or add the above command in your ~/.bash_profile.
 
