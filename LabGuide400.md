@@ -51,10 +51,10 @@ NOTE: You need to accept the agreement first before downloading the package.  Un
 
 - Change the following paramerters in WebController.java:
 
-    . Service name: Your Service name./
-    . TNS_ADMIN: Path of the TNS_ADMIN that you have set. /
-    . User: username/
-    . Password: Password/
+    . Service name: Your Service name . 
+    . TNS_ADMIN: Path of the TNS_ADMIN that you have set . 
+    . User: username . 
+    . Password: Password . 
     
     ![](images/SpringbootWebApp/parameters.png)
 
