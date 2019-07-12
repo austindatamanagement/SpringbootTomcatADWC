@@ -27,6 +27,8 @@ NOTE: You need to accept the agreement first before downloading the package.  Un
 - **Unzip the Autonomous wallet downloaded, and navigate to sqlnet.ora.** 
   Edit sqlnet.ora as follows:
 
+  On your command prompt, type: 
+  
     **nano sqlnet.ora** - This will open the file to edit. 
 
     WALLET_LOCATION = (SOURCE = (METHOD = file) (METHOD_DATA = (DIRECTORY=**$TNS_ADMIN**)))
