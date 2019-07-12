@@ -46,9 +46,9 @@ This lab guide will walk you through the process of running the application in T
 
     **chmod +x catalina.sh**
 
-    NOw run the following command: 
+    Now run the following command: 
     
-    **./catalina.sh run**
+    **sudo ./catalina.sh run**
 
     ![](images/SpringbootWebApp/bin.png)
     
