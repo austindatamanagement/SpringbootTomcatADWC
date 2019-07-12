@@ -36,13 +36,18 @@ This lab guide will walk you through the process of running the application in T
 
     ![](images/SpringbootWebApp/webapp.png)
 
-- Rename the war file to test1.war.
+- Rename the war file to test1.war. 
+  NOTE: This step is important as when you run the application, we will access the application in local server at port 8080/test1
 
 
 ### **STEP 3**: Run the application.
 
 - Navigate to the bin folder of the Tomcat Server and run the following command :
 
+    **chmod +x catalina.sh**
+
+    NOw run the following command: 
+    
     **./catalina.sh run**
 
     ![](images/SpringbootWebApp/bin.png)
