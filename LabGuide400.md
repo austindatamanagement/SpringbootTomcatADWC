@@ -19,6 +19,8 @@ This lab guide will walk you through the process of setting Spring Boot Applicat
 
 - Download Client Credentials (Wallets): Please follow this link to download the wallet: https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/user/connect-download-wallet.html#GUID-B06202D2-0597-41AA-9481-3B174F75D4B1
 
+ ![](images/ic.png)
+ 
 - Download Instant Client - "Basic Package - All files required to run OCI, OCCI, and JDBC-OCI applications" from the following link: https://www.oracle.com/technetwork/topics/intel-macsoft-096467.html. 
 NOTE: You need to accept the agreement first before downloading the package.  Unzip the file.
 
@@ -36,12 +38,15 @@ NOTE: You need to accept the agreement first before downloading the package.  Un
     
     Note: Repeat this everytime you restart the laptop. Or add the above command in your ~/.bash_profile.
     
+     ![](images/ld.png)
+    
 - Set env variables TNS_AMDIN to point to the wallet folder. Type the following command in your command prompt:
     
     **export TNS_ADMIN=Path of your unzipped wallet folder**
 
     Note: Repeat this everytime you restart the laptop. Or add the above command in your ~/.bash_profile.
 
+    ![](images/tns.png)
 
 ### **STEP 2**: Set up environment parameters in Spring Boot Application. 
 
