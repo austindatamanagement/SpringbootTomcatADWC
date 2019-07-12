@@ -51,10 +51,12 @@ NOTE: You need to accept the agreement first before downloading the package.  Un
 
 - Change the following paramerters in WebController.java:
 
-    . Service name: Your Service name . 
-    . TNS_ADMIN: Path of the TNS_ADMIN that you have set . 
-    . User: username . 
-    . Password: Password . 
+    . Service name: "Your Service name" . 
+    . TNS_ADMIN: "Path of the TNS_ADMIN that you have set" . 
+    . User: "username" . 
+    . Password: "Password" . 
+    
+    Please see the screenshot below for the code view:
     
     ![](images/SpringbootWebApp/parameters.png)
 
@@ -70,7 +72,7 @@ NOTE: You need to accept the agreement first before downloading the package.  Un
   
 - Change the location of ojdbc8.jar in the following command and run it:
 
-  **mvn install:install-file -Dfile=location of ojdbc8.jar -DgroupId=com.github.noraui -DartifactId=ojdbc8 -Dversion=12.2.0.1 -Dpackaging=jar -DgeneratePom=true**
+  **mvn install:install-file -Dfile={location of ojdbc8.jar along with the file name, eg location/ojdbc8.jar} -DgroupId=com.github.noraui -DartifactId=ojdbc8 -Dversion=12.2.0.1 -Dpackaging=jar -DgeneratePom=true**
   
 
 You are all set to go to the next lab.
