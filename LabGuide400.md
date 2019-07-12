@@ -51,15 +51,15 @@ NOTE: You need to accept the agreement first before downloading the package.  Un
 
 - Change the following paramerters in WebController.java:
 
-    . Service name: Your Service name.
-    . TNS_ADMIN: Path of the TNS_ADMIN that you have set. 
-    . User: username
-    . Password: Password
+    . Service name: Your Service name./
+    . TNS_ADMIN: Path of the TNS_ADMIN that you have set. /
+    . User: username/
+    . Password: Password/
     
     ![](images/SpringbootWebApp/parameters.png)
 
-- Download ojdbc8-full.tar.gz fromt he following site: https://www.oracle.com/technetwork/database/features/jdbc/jdbc-ucp-122-3110062.html
-  Unzip it and note down the location of ojdbc8.jar file alonf with the file name.
+- Download ojdbc8-full.tar.gz from the following site: https://www.oracle.com/technetwork/database/features/jdbc/jdbc-ucp-122-3110062.html
+  Unzip it and note down the location of ojdbc8.jar file along with the file name.
   
 - Navigate to the SpringBootWarDeployment directory where the pom.xml file is located.
 
@@ -73,4 +73,4 @@ NOTE: You need to accept the agreement first before downloading the package.  Un
   **mvn install:install-file -Dfile=location of ojdbc8.jar -DgroupId=com.github.noraui -DartifactId=ojdbc8 -Dversion=12.2.0.1 -Dpackaging=jar -DgeneratePom=true**
   
 
-Youa re all set to go to the next lab.
+You are all set to go to the next lab.
