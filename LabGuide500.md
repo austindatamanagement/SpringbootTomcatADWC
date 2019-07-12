@@ -1,4 +1,7 @@
-Updated: December 10, 2018
+Updated: May 30, 2019 . 
+Megha Gajbhiye . 
+megha.gajbhiye@oracle.com . 
+
 
 ## Introduction
 
@@ -44,7 +47,7 @@ This lab guide will walk you through the process of running the application in T
 
 - Navigate to the bin folder of the Tomcat Server and run the following command :
 
-    **chmod +x catalina.sh**
+    **chmod +x catalina.sh** - This command will make the catalina.sh file executable.
 
     Now run the following command: 
     
