@@ -39,7 +39,7 @@ This lab guide will walk you through the process of running the application in T
 
     ![](images/SpringbootWebApp/webapp.png)
 
-- Rename the war file to test1.war. 
+- Rename the war file to test1.war.  
   NOTE: This step is important as when you run the application, we will access the application in local server at port 8080/test1
 
 
